@@ -15,7 +15,7 @@ while (true) {
       if (i % 2 === 0)
          start.push(name);
       else
-        end.unshift(name); 
+         end.unshift(name); 
    }
    sorted = start.concat(end);
    for (var j = 0; j < N; j++) {
